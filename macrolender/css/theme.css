@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;700&family=IBM+Plex+Serif:wght@300;400;500;700&display=swap");
+
+ul {
+  list-style: none !important;
+}
+p {
+  font-size: 14px;
+}
+.is-divider {
+  display: none !important;
+}
+
+/*Logo*/
+#logo img {
+  max-height: 35px !important;
+}
+
+/*Login Account*/
+.woocommerce-form-login__submit {
+  border-radius: 3px !important;
+  font-family: 'IBM Plex Sans Thai';
+  font-weight: 500 !important;
+}
+.woocommerce-form-login__submit:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000 !important;
+  -webkit-box-shadow: none !important;
+}
+.account-login-inner h3 {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.account-register-inner h3 {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/*MB Menu*/
+.mobile-nav .nav-icon i.icon-menu {
+  filter: brightness(0);
+}
+.off-canvas .mobile-sidebar .sidebar-menu {
+  padding: 0;
+}
+.mobile-sidebar .sidebar-menu li a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  font-family: "IBM Plex Sans Thai";
+}
+
+/*MB Search*/
+.mobile-sidebar .header-search-form form.searchform {
+  width: 215px;
+  height: 40px;
+  border: 1px solid #b5b5b5;
+}
+.mobile-sidebar .searchform input#woocommerce-product-search-field-1 {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 40px;
+}
+.mobile-sidebar .searchform button {
+  background-color: transparent !important;
+  border: none;
+}
+.mobile-sidebar .searchform .icon-search:before {
+  content: "" !important;
+  background: url(../images/icon/icon-search.svg) no-repeat 0 1px / 19px auto;
+  display: inline-block;
+  width: 19px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/*MB Cart*/
+.header-wrapper .cart-icon {
+  content: "";
+  background: url(../images/icon-bag.svg) center / 23px no-repeat;
+  width: 23px;
+  height: 25px;
+}
+.header-wrapper .cart-icon strong::after {
+  display: none;
+}
+
+/*MB Account*/
+.sidebar-menu .account-item .header-account-title:before {
+  content: "";
+  background: url(../images/icon-account.svg) 0 0 /27px no-repeat;
+  width: 27px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+.header-account-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/*Search*/
+.header-nav form.searchform {
+  width: 307px;
+  height: 40px;
+  border: 1px solid #b5b5b5;
+}
+.header-nav input#woocommerce-product-search-field-0 {
+  border: none;
+  box-shadow: none;
+  font-size: 1.1rem;
+  background-color: transparent;
+  font-weight: 400;
+  height: 40px;
+  font-family: 'IBM Plex Sans Thai';
+}
+.header-nav .searchform-wrapper button {
+  background-color: transparent !important;
+  border: none;
+}
+.header-nav .searchform-wrapper button:hover {
+  background-color: unset !important;
+}
+.header-nav .searchform-wrapper .icon-search:before {
+  content: "" !important;
+  background: url(../images/icon/icon-search.svg) no-repeat 0 1px / 19px auto;
+  display: inline-block;
+  width: 19px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/*header nav right*/
+.header-wrapper .account-item a,
+.header-wrapper .header-wishlist-icon a,
+.header-wrapper .cart-item a {
+  padding: 0;
+}
+
+/*Account*/
+.header-wrapper .icon-user:before {
+  content: "";
+  background: url(../images/icon-account.svg) 0 0 /27px no-repeat;
+  width: 27px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+.header-wrapper .account-item .nav-dropdown li {
+  margin: 10px 0;
+}
+.header-wrapper .account-item a {
+  font-size: 1rem;
+  color: #000 !important;
+  border: none !important;
+  font-family: "IBM Plex Sans Thai";
+}
+.header-wrapper .account-item a:hover,
+.header-wrapper .account-item .nav-dropdown li:not(:first-child).active > a {
+  color: #d1956b !important;
+}
+
+/*Wishlist*/
+.header-wishlist-icon .wishlist-icon.icon-heart-o::before {
+  content: "" !important;
+  background: url(../images/icon-heart.svg) 0 0 /30px no-repeat;
+  width: 30px;
+  height: 28px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+/*Cart*/
+.cart-item .header-cart-link.is-small {
+  padding: 0;
+}
+.cart-item .cart-icon strong {
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #d1956b;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-left: 1px;
+  position: relative;
+  top: 7px;
+  left: 8px;
+}
+.woocommerce-Price-currencySymbol {
+  visibility: hidden;
+}
+.woocommerce-Price-currencySymbol::before {
+  visibility: visible;
+  content: "บาท" !important;
+  font-weight: 400;
+  font-family: "IBM Plex Sans Thai";
+}
+.woocommerce-message {
+  display: none;
+}
+.cart-item .wc-forward {
+  border-radius: 3px;
+  border: 1px solid #000;
+  background-color: #000 !important;
+  color: #fff;
+  font-family: "IBM Plex Sans Thai";
+  font-size: 1rem;
+  font-weight: 500;
+}
+.cart-item .wc-forward:hover {
+  opacity: 0.8 !important;
+  color: #fff;
+}
+
+/*Menu*/
+.header-bottom .menu-item a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000 !important;
+  font-family: "IBM Plex Sans Thai";
+}
+.header-bottom .menu-item a:hover,
+.header-bottom .menu-item:not(:first-child).active > a {
+  color: #d1956b !important;
+}
+.sub-menu .menu-item a {
+  border-bottom: none !important;
+}
+.top-divider.full-width {
+  display: none;
+}
+.header-bottom .menu-item {
+  margin-right: 30px;
+}
+
+/*Account Page*/
+.my-account-header .flex-grow {
+  text-align: left;
+}
+.my-account-header h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans Thai";
+}
+.my-account-header small {
+  font-size: 1rem;
+  font-family: "IBM Plex Sans Thai";
+}
+.admin-bar .account-nav li a {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 400;
+  font-family: "IBM Plex Sans Thai";
+}
+.dashboard-links a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "IBM Plex Sans Thai";
+}
+
+/*Products*/
+.product-small .box-image {
+  border: 1px solid #949494;
+}
+.price-wrapper .price {
+  text-align: center;
+  padding-top: 15px;
+}
+.price-wrapper .price .amount bdi {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+}
+.price-wrapper .amount bdi .woocommerce-Price-currencySymbol {
+  visibility: hidden;
+  vertical-align: unset;
+}
+.price-wrapper .amount bdi .woocommerce-Price-currencySymbol:before {
+  visibility: visible;
+  content: "บาท" !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "IBM Plex Sans Thai";
+}
+.single_add_to_wishlist {
+  width: 140px;
+}
+
+/*Quickview*/
+.product-lightbox .price-wrapper .price {
+  text-align: left;
+}
+.product-lightbox button {
+  background-color: transparent !important;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.product-lightbox button:hover {
+  border: none;
+  background-color: #000 !important;
+  color: #fff;
+}
+
+/*Check Out*/
+.woocommerce-billing-fields label {
+  font-family: 'IBM Plex Sans Thai' !important;
+  font-size: 1rem;
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+
+/*Home Slide*/
+button.flickity-button svg {
+  display: none;
+}
+
+/*Show Category*/
+.woocommerce-breadcrumb {
+  font-weight: 500 !important;
+  font-size: 1rem;
+  color: #000 !important;
+}
+.woocommerce-breadcrumb a {
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+.woocommerce-shop .widget strong,
+.woocommerce-shop .widget .shop-sidebar {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.woocommerce-shop .widget .shop-sidebar {
+  line-height: 2.5;
+}
+.widget_price_filter .ui-slider-range {
+  background-color: #000 !important;
+  opacity: 1 !important;
+}
+.widget_price_filter .ui-state-default {
+  background-color: #000;
+  filter: brightness(1);
+}
+.woocommerce-shop .price_slider_amount .button {
+  background-color: #000 !important;
+  color: #fff;
+  font-size: 1rem !important;
+  font-weight: 500;
+  padding: 0 20px;
+  margin: 0;
+  line-height: 1;
+  min-height: 30px;
+  border-radius: 3px !important;
+    font-family: 'IBM Plex Sans Thai';
+}
+.woocommerce-shop .price_slider_amount .button:hover {
+  background-color: #fff !important;
+  border: 1px solid #000 !important;
+  color: #000;
+  box-shadow: none !important;
+}
+.woocommerce-shop .price_label {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.woocommerce-shop .product-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*Single Product*/
+.single-product #product-sidebar .next-prev-thumbs {
+  margin: 0 !important;
+}
+.single-product .product-info h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.single-product .price-wrapper .price {
+  text-align: left;
+}
+.single-product .yith-wcwl-add-button {
+  margin-bottom: 15px;
+}
+.single-product .product-main {
+  padding: 0 !important;
+}
+.product-footer .related h3 {
+  text-align: left;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.product-footer .tabs a {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.product-footer .tab-panels p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.product-footer .shop_attributes th,
+.product-footer .shop_attributes td p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.product-info button {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'IBM Plex Sans Thai';
+}
+.product-info button:hover {
+  opacity: 0.8 !important;
+  color: #fff !important;
+}
+
+/*Shopping Cart*/
+.woocommerce-cart .woocommerce th {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.woocommerce-cart .shipping__table p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  font-family: "IBM Plex Sans Thai", "IBM Plex Sans";
+}
+.checkout-breadcrumbs a {
+  font-size: 1.2rem;
+}
+.woocommerce-cart .checkout-button {
+  background-color: #000 !important;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+}
+.woocommerce-cart .checkout-button:hover {
+  opacity: 0.8 !important;
+  border: none !important;
+  color: #fff;
+}
+.woocommerce-cart .actions .button {
+  border-radius: 3px;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  opacity: 1;
+}
+.woocommerce-cart .actions .button:hover {
+  opacity: 0.8;
+}
+.woocommerce-cart .button-continue-shopping {
+  border: 1px solid #000 !important;
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.woocommerce-cart .button-continue-shopping:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/*Blog*/
+.single-post .entry-category a {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1rem;
+  font-weight: 400;
+}
+.single-post .entry-title {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.blog-archive .wp-block-latest-posts li a {
+  font-family: 'Sarabun';
+  font-size: 1rem;
+  font-weight: 400;
+
+footer.entry-meta.text-center {
+  text-align: left;
+}
+
+/*CheckOut*/
+.woocommerce-billing-fields .required {
+  color: #f00;
+}
+.woocommerce-checkout-payment #place_order {
+  border-radius: 3px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  opacity: 1;
+  font-weight: 500;
+}
+.woocommerce-checkout-payment #place_order:hover {
+  background-color: #000;
+  color: #fff;
+}
+.woocommerce-checkout h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans Thai";
+}
+.woocommerce-thankyou-order-received strong {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.woocommerce-order-overview li {
+  font-family: "IBM Plex Sans Thai", "IBM Plex Sans";
+  font-weight: 400;
+}
+.woocommerce-order-overview li strong {
+  font-weight: 500;
+}
+
+@media (min-width: 850px) {
+  /*container*/
+  .container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 990px !important;
+}
+
+  /*Header*/
+  .head-promotion {
+    padding: 10px 0;
+}
+.head-promotion p {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1rem;
+}
+.head-promotion strong {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.head-promotion a {
+  color: #fff;
+}
+
+  .header-nav form.searchform {
+    width: 265px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /*Logo*/
+  #logo img {
+    max-height: 70px !important;
+}
+
+  /*Container*/
+  .container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 1380px !important;
+}
+
+  /*Menu*/
+  .header-nav form.searchform {
+    width: 307px;
+  }
+
+  /*Home Products*/
+  .price-wrapper .price .amount bdi {
+    font-size: 1.25rem;
+  }
+  
+  /*Blog*/
+  .single-post .entry-category a {
+    font-size: 1.25rem;
+}
+  .single-post .entry-title {
+    font-size: 1.5rem;
+}
+}

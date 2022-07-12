@@ -1,0 +1,1280 @@
+/*Home Slide*/
+.home-slide .flickity-prev-next-button.previous {
+  content: "";
+  width: 15px;
+  height: 30px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-left.svg) center center / 15px auto
+    no-repeat;
+  left: 10px;
+  opacity: 1;
+}
+.home-slide .flickity-prev-next-button.next {
+  content: "";
+  width: 15px;
+  height: 30px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-right.svg) center center / 15px auto
+    no-repeat;
+  right: 10px;
+  opacity: 1 !important;
+}
+.home-slide .flickity-page-dots {
+  bottom: 2px !important;
+}
+.home-slide .flickity-page-dots .dot {
+  width: 8px;
+  height: 8px;
+  border: none;
+  background-color: #fff;
+  opacity: 1;
+}
+.home-slide .flickity-page-dots .dot.is-selected {
+  background-color: #000 !important;
+}
+
+/*Home Three Banner*/
+.home-three-banner {
+  padding-top: 15px;
+}
+.home-three-banner .col:first-child {
+  padding-bottom: 1em;
+}
+.home-three-banner .col:last-child {
+  padding-bottom: 15px;
+}
+
+/*Home Product*/
+.image-tools.top.right.show-on-hover {
+  display: none;
+}
+.home-products .bg-loaded {
+  display: none;
+}
+.home-products {
+  padding-top: 0 !important;
+}
+.home-title {
+  padding-bottom: 0 !important;
+}
+.home-products .h-title {
+  width: 100%;
+  border-bottom: 2px solid #000;
+  line-height: 0.1em;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.home-products .h-title span {
+  font-family: "Roboto";
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 0 10px;
+  position: relative;
+  top: 10px;
+  text-transform: uppercase;
+}
+.home-products.all-products .h-title span {
+  font-size: 2.1rem;
+  font-family: 'IBM Plex Sans Thai';
+}
+.home-products.flashsale .h-title span:before {
+  content: "";
+  background: url(../images/icon-flash.png) 0 0 /27px no-repeat;
+  width: 27px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+.home-products.popular .products-slide .title {
+  padding-bottom: 0;
+}
+.home-products .box-text p {
+  font-family: 'Roboto', 'IBM Plex Sans Thai';
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  overflow: hidden;
+  height: 39px;
+}
+.home-products .product-slide {
+  padding-bottom: 0;
+}
+.home-products .flickity-slider .col {
+  padding: 0 7px 19.6px !important;
+}
+.men-popular.slide {
+  margin-bottom: 10px;
+}
+.home-products .flickity-prev-next-button {
+  margin-top: 0 !important;
+  top: 20% !important;
+  bottom: 20% !important;
+}
+.home-products .flickity-prev-next-button.previous {
+  content: "";
+  width: 12px !important;
+  height: 30px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-left.svg) center center / 12px auto no-repeat;
+  left: 3% !important;
+  right: auto !important;
+  opacity: 1;
+}
+.home-products .flickity-prev-next-button.next {
+  content: "";
+  width: 12px !important; 
+  height: 30px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-right.svg) center center / 12px auto
+    no-repeat;
+  left: auto !important;
+  right: 3% !important;
+  opacity: 1 !important;
+}
+.home-products.popular .col {
+  padding-bottom: 0 !important;
+}
+.home-products.popular .banner-popular {
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+.home-products.popular .flickity-prev-next-button {
+  top: 20% !important;
+  bottom: 20% !important;
+}
+.home-products.popular .flickity-prev-next-button.previous {
+  left: 3% !important;
+}
+.home-products.popular .flickity-prev-next-button.next {
+  right: 3% !important;
+}
+.home-products.popular .products-header {
+  display: grid;
+  grid: auto / auto auto;
+}
+.products-header .p-title h4 {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 1.2;
+  margin-left: 5px;
+}
+.products-header a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans Thai";
+  line-height: 1.2;
+  text-align: right;
+  float: right;
+}
+.products-header .p-title p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-align: left;
+  font-family: "IBM Plex Sans Thai";
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+.home-products.popular .flickity-page-dots {
+  width: 15%;
+    left: 85%;
+    right: 85%;
+    bottom: 112%;
+}
+.home-products.popular .women-popular .flickity-page-dots {
+  left: 84%;
+  right: 84%;
+}
+.home-products.popular .flickity-page-dots .dot {
+  width: 12px;
+  height: 3px;
+  border-radius: 2px !important;
+  margin: 0 3px !important;
+}
+.men-popular.title {
+  padding: 0 11px;
+}
+.p-title {
+  border-left: 5px solid #000;
+  height: 38px;
+  margin-bottom: 15px;
+}
+
+/*Btn All*/
+.product-button {
+  padding-bottom: 0 !important;
+}
+.btn-all {
+  padding: 0 !important;
+  margin-bottom: 15px !important;
+  width: 175px;
+  height: 43px;
+  border-color: #6F6F6F !important;
+}
+.btn-all span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2.5 !important;
+  font-family: "IBM Plex Sans Thai";
+}
+
+/*Home Banner*/
+.home-banner .section-content {
+  width: 567px;
+  height: 375px;
+  margin: 0 15%;
+}
+.home-banner .h-title {
+  text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-family: 'IBM Plex Sans Thai';
+}
+.ab-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.ab-logo img {
+  width: 195px;
+  height: 40px;
+}
+.ab-content p {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/*Home W-Store*/
+.home-store {
+  padding-bottom: 0 !important;
+}
+.why-title .col {
+  padding-bottom: 0;
+}
+.why-title .h-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 58px;
+  font-family: "IBM Plex Sans Thai";
+}
+.why-card .col:last-child {
+  padding-bottom: 0;
+}
+.why-card .why-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.why-card .quility img {
+  width: 51px;
+  height: 65px;
+}
+.why-card .cut-style img {
+  width: 104px;
+  height: 63px;
+}
+.why-card .sp-price img {
+  width: 68px;
+  height: 61px;
+}
+.why-card .fast-trans img {
+  width: 88px;
+  height: 63px;
+}
+.why-card .why-box p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans Thai";
+  color: #646464;
+}
+
+/*Home Blog*/
+.home-blog {
+  margin-bottom: 15px;
+}
+.home-blog .blog-post {
+  padding-bottom: 0;
+}
+.home-blog .h-button {
+  padding-bottom: 0;
+}
+.home-blog .blog-title {
+  padding: 0;
+}
+.home-blog .is-divider {
+  display: none;
+}
+.home-blog .box-text {
+  padding: 18px 30px 16px 22px;
+}
+.blog-title .h-title {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-bottom: 28px;
+  font-family: "IBM Plex Sans Thai";
+}
+.home-blog .post-title {
+  color: #000;
+  text-shadow: none;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "IBM Plex Sans Thai";
+}
+.home-blog .box-text p {
+  color: #6A6A6A;
+  text-shadow: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.home-blog .flickity-prev-next-button.previous {
+  content: "";
+  width: 13px;
+  height: 25px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-left.svg) center center / 13px auto
+    no-repeat;
+  left: 10px;
+  opacity: 1;
+}
+.home-blog .flickity-prev-next-button.next {
+  content: "";
+  width: 13px;
+  height: 25px;
+  display: inline-block;
+  margin: 0;
+  background: url(../images/icon/icon-right.svg) center center / 13px auto
+    no-repeat;
+  right: 10px;
+  opacity: 1 !important;
+}
+
+/*CMS*/
+.cms-page {
+  padding: 0 !important;
+}
+.cms-menu ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.cms-menu li {
+  display: inline-block;
+  margin: 0 !important;
+}
+.cms-menu li img {
+  display: inline-block;
+  filter: brightness(0.5);
+  width: 35px;
+  padding: 5px;
+  margin: 0 5px;
+}
+.howto-menu li.how-to-order img,
+.payment-menu li.payment img,
+.ship-menu li.shipping img,
+.confirm-menu li.confirm-payment img,
+.policy-menu li.privacy-policy img {
+  background-color: #000;
+  filter: brightness(1);
+  border-radius: 6px;
+}
+.cms-menu a span {
+  font-family: 'IBM Plex Sans Thai';
+  font-size: 1rem;
+  margin: 0 9px;
+}
+.cms-menu li span {
+  display: none;
+}
+.cms-title .cms-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+.cms-logo img {
+  margin-right: 20px;
+  filter: brightness(0);
+}
+.cms-content .cms-logo h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: 'IBM Plex Sans Thai';
+}
+.how-col {
+  padding: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.how-img {
+  padding: 0 !important;
+  text-align: center;
+  max-width: 100% !important;
+}
+.how-text {
+  padding: 15px;
+  max-width: 100% !important;
+}
+.how-step {
+  display: flex;
+  align-items: center;
+}
+.how-step h1 {
+  width: auto;
+  margin: 0;
+  font-size: 3.5rem;
+  color: #333;
+  font-family: "Kanit";
+  font-weight: 600;
+}
+.how-step h4 {
+  color: #333;
+  margin: 0 0 10px 15px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.how-text p {
+  font-size: 14px;
+  font-family: "Sarabun";
+  color: #333;
+}
+.cms-content p {
+  font-size: 14px;
+  font-family: 'Sarabun';
+}
+.howto-page .how-col p {
+  min-height: 42px;
+  margin: 0;
+}
+.bank-data {
+  display: flex;
+}
+.bank img {
+  width: 80px;
+  border-radius: 12px 0 0 12px;
+}
+.bank-data .bank-detail {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 0 12px 12px 0;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  margin: 0;
+}
+ul.bank-detail li {
+  font-family: 'Sarabun';
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #1f1f1f;
+  margin: 0 !important;
+}
+.payment-page .order-step-box {
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 15px 15px 0 15px;
+  font-size: 14px;
+}
+.order-step-box ul {
+  align-items: center;
+  justify-content: center;
+}
+.payment-page .order-step-box ul li {
+  margin: 0;
+}
+.order-step-box ul img {
+  width: 30px;
+  margin: 0;
+}
+.payment-page li img.dropdown {
+  transform: rotate(-90deg);
+  margin: 10px;
+  width: 25px;
+}
+.cms-page .cms-content a {
+  font-weight: 400;
+}
+.order-step-box .order-condition {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+}
+.shipping-page .cms-content > div:not(.cms-title) {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.shipping-page .cms-content > div:not(.cms-title) h4 {
+  padding: 2px 30px;
+  background: #000;
+  width: fit-content;
+  color: #fff;
+  border-radius: 0 0 12px 12px;
+  margin: 0 0 30px 5px;
+  font-size: 1.05rem;
+  font-family: 'IBM Plex Sans Thai';
+  font-weight: 500 !important;
+}
+.shipping-page .cms-content > div:not(.cms-title) img {
+  margin: 25px auto;
+}
+.c-by ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0 20px;
+}
+.c-by li {
+  margin: 0 15px;
+}
+.c-by li:before {
+  content: "\2022";
+  color: #000;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 10px;
+  line-height: 1;
+  position: relative;
+  top: 4px;
+}
+.notify-note {
+  background-color: #efefef;
+  border-radius: 22px;
+  padding: 5px 10px;
+}
+.cms-page .form-confirm {
+  border: solid 2px #000;
+  border-radius: 12px;
+  padding-bottom: 0;
+}
+.form-confirm .form-title {
+  padding: 2px 15px;
+  background-color: #000;
+  width: fit-content;
+  color: #fff;
+  border-radius: 0 0 12px 12px;
+  margin: 0 0 30px 15px;
+}
+.form-confirm .seed-confirm-slip {
+  font-size: 14px;
+}
+.form-confirm .seed-confirm-slip input {
+  border: none;
+  background-color: unset;
+  border-radius: 0;
+}
+.form-confirm #seed-confirm-btn-submit {
+  margin: 0;
+    border: none;
+    padding: 0 50px 0 50px;
+    border-radius: 22px !important;
+    background-color: #000;
+    font-family: 'IBM Plex Sans Thai';
+    font-weight: 500;
+    line-height: 2 !important;
+    letter-spacing: unset !important;
+}
+.form-confirm #seed-confirm-btn-submit:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  box-shadow: none !important;
+}
+.confirm-page .note-bottom {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  margin-top: 15px;
+  padding: 30px 30px 0 30px;
+}
+.note-bottom .content {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 15px 30px 15px !important;
+}
+.note-bottom .content .box-text {
+  padding: 0 0 0 15px;
+}
+.content .box-text h4 {
+  font-weight: 400;
+}
+.form-confirm .sc-col label {
+  font-family: "IBM Plex Sans";
+  font-size: 1rem;
+}
+.policy-page .w-100 {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px 30px;
+}
+.cms-content .collect-information ul,
+.cms-content .what-we-de,
+.cms-content .control-private {
+  margin: 0 0 8px 0;
+  list-style: disc !important;
+}
+.w-100 li {
+  margin-bottom: 0;
+}
+.list-cookie {
+  padding: 15px;
+  font-weight: 400;
+}
+.list-cookie h4,
+.list-cookie table th {
+  font-weight: 400;
+}
+
+/*Contact Us*/
+.contact-page .form-contact,
+.contact-page .box-contact {
+  padding-bottom: 15px;
+}
+.form-contact .form-bg {
+  border: solid 1px #000;
+  border-radius: 12px;
+}
+.contact-page .form-title,
+.contact-page .box-title {
+  background-color: #000;
+  display: inline-flex;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 0 0 12px 12px;
+  margin: 0 0 30px 15px;
+}
+.contact-page .box-bg {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+.contact-page .box-text {
+  padding: 0;
+}
+.contact-page .box-text h4,
+.contact-page .box-text p {
+  margin: 0 0 0 10px;
+  color: #fff;
+}
+.contact-page .box-text h4,
+.contact-page .box-text span {
+  margin: 0 0 0 10px;
+  color: #fff;
+  font-family: "IBM Plex Sans Thai", "Roboto";
+}
+.box-contact .box-bg .box-content ul {
+  margin-bottom: 0;
+}
+.cms-content span.mark {
+  color: red;
+  margin-right: 5px;
+}
+.cms-page form input,
+.cms-page form select,
+.cms-page form textarea {
+  border-radius: 22px;
+  background-color: #f5f5f5;
+  border: 1px solid #c5c5c5;
+}
+.form-contact-us .submit-form {
+  text-align: center;
+}
+.form-contact .form-contact-us .submit-form input {
+  background-color: #000;
+  border-radius: 22px !important;
+  padding: 0 50px 0 50px;
+  border: none;
+}
+.cms-page form .wpcf7-spinner {
+  display: none;
+}
+.box-contact .box-content ul li {
+  display: flex;
+  margin: 0 0 30px 40px;
+}
+.box-contact .box-content ul img {
+  width: 50px;
+}
+.box-contact .box-content .data h4,
+.box-contact .box-content .data p,
+.box-contact .box-content .data a {
+  margin: 0 0 0 30px;
+  font-family: 'IBM Plex Sans Thai';
+  font-weight: 500;
+}
+.map iframe {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/*Footer Links*/
+.footer-links {
+  padding: 30px 0;
+}
+.footer-links div > ul li {
+  margin-left: 0;
+}
+.footer-links .col {
+  padding-bottom: 0;
+}
+.footer-links .row .col {
+  padding-bottom: 0;
+}
+.f-logo img {
+  width: 327px !important;
+  height: 60px;
+}
+.f-address p {
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.f-contact .f-social ul {
+  display: flex;
+}
+.f-contact {
+  padding-bottom: 10px;
+}
+.f-social ul li {
+  margin-right: 40px;
+}
+.f-social img {
+  width: 32px;
+  height: 32px;
+}
+.f-social img:hover {
+  opacity: 0.5;
+}
+.f-menu h4 {
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+  font-family: "IBM Plex Sans Thai" !important;
+}
+.f-menu li a {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "IBM Plex Sans Thai";
+}
+.f-pay-ship h4 {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.f-shipping  {
+  display: flex;
+}
+.f-shipping a {
+  margin-right: 15px;
+}
+
+/*Footer Absolute*/
+.absolute-footer {
+  padding: 10px 0 10px !important;
+  font-size: 1rem;
+}
+.copyright-footer {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+.back-to-top.button {
+  bottom: 80px;
+  font-size: 1rem;
+  position: fixed !important;
+  right: 20px;
+  z-index: 1000;
+}
+.back-to-top.button i {
+  font-size: 1.5rem !important;
+}
+
+@media (min-width: 550px) {
+
+  /*Home Three Banner*/
+  .women-popular .p-title {
+    height: 55px;
+}
+.home-products .h-title {
+  margin: 10px 0 40px;
+}
+
+/*Home Products*/
+.home-products.popular .banner-popular {
+  padding-right: 3px;
+}
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 562px !important;
+}
+.home-products .flickity-prev-next-button {
+  top: 28% !important;
+  bottom: 28% !important;
+}
+.home-products.popular .flickity-prev-next-button {
+  top: 18% !important;
+  bottom: 18% !important;
+}
+
+/*Home Why*/
+.why-card .box-image {
+  padding-bottom: 15px;
+}
+.why-card .col {
+  padding-bottom: 0;
+}
+
+  /*Home Blog*/
+  .home-blog .post-title {
+    font-size: 1.25rem;
+  }
+  .home-blog .box-text {
+    height: 135px;
+}
+  .home-blog .box-text p {
+    font-size: 1.1rem;
+    overflow: hidden;
+    height: 55px;
+  }
+  .home-blog .flickity-prev-next-button {
+    top: 35% !important;
+    bottom: 35% !important;
+}
+.home-blog .flickity-prev-next-button.previous {
+  left: 15px;
+}
+.home-blog .flickity-prev-next-button.next {
+  right: 15px;
+}
+
+  /*CMS*/
+  .cms-page .left-menu {
+    float: left;
+    padding: 0;
+  }
+  .cms-page .cms-menu {
+    padding: 0 15px 0 0;
+  }
+  .cms-menu ul {
+    background-color: #000;
+    border-radius: 12px;
+    display: block;
+  }
+  .cms-menu li:first-child {
+    border-radius: 12px 12px 0 0;
+  }
+  .howto-menu li.how-to-order,
+  .payment-menu li.payment,
+  .ship-menu li.shipping,
+  .confirm-menu li.confirm-payment,
+  .policy-menu li.privacy-policy {
+    background-color: #000;
+  }
+  .cms-menu li {
+    display: block;
+    background-color: rgb(48, 48, 48);
+    padding: 10px 0;
+    font-family: "Roboto", "Kanit", sans-serif;
+    margin: 0 10px 0 0 !important;
+  }
+  .cms-menu li:hover {
+    background: #000;
+}
+  .cms-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  .cms-menu li img {
+    width: 30px;
+    margin: 10px;
+    filter: brightness(10);
+    padding: 0;
+  }
+  .cms-menu li span {
+    display: block;
+  }
+  .cms-menu li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+  .cms-page .cms-content {
+    display: inline-block;
+    width: 100%;
+  }
+  .cms-content .how-img {
+    text-align: left;
+}
+  .how-img {
+    position: relative;
+    float: left;
+    width: 16.66667% !important;
+  }
+  .how-text {
+    float: right;
+    width: 83.33333% !important;
+  }
+  .bank img {
+    width: 90px;
+}
+.bank-data .bank-detail {
+  height: 90px;
+}
+  ul.bank-detail li {
+    margin: 0 5px !important;
+}
+  .seed-confirm-form {
+    border: none !important;
+    padding: 25px 30px;
+  }
+  .list-cookie {
+    padding: 30px;
+  }
+
+  /*Footer*/
+  .f-contact .f-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .f-address p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /*Home Three Banner*/
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 238px !important;
+}
+
+/*Home Products*/
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 680px !important;
+}
+.home-products.popular .flickity-page-dots {
+  width: 35%;
+  bottom: 112%;
+}
+.home-products.popular .flickity-prev-next-button {
+  top: 23% !important;
+  bottom: 23% !important;
+}
+.home-products .flickity-prev-next-button {
+  top: 34% !important;
+  bottom: 34% !important;
+}
+
+  /*Footer*/
+  .f-contact .f-social ul {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 850px) {
+
+  /*Home Three Banner*/
+  .home-three-banner {
+    margin-top: 20px !important;
+}
+.women-popular .p-title {
+  height: 38px;
+}
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 262px !important;
+}
+.home-three-banner .col:first-child {
+  padding-bottom: 40px;
+}
+
+/*Home Products*/
+.home-products .h-title {
+  margin: 20px 0 40px;
+}
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 695px !important;
+}
+.home-products.popular .flickity-page-dots {
+  width: 12%;
+  bottom: 112%;
+  left: 87%;
+  right: 87%;
+}
+.home-products .flickity-prev-next-button {
+  top: 28% !important;
+  bottom: 28% !important;
+}
+
+  /*CMS*/
+  .payment-page .order-step-box {
+    padding: 30px 30px 10px 30px;
+  }
+  .payment-page .order-step img {
+    width: auto;
+  }
+  .payment-page li img.dropdown {
+    margin: 20px;
+  }
+  .c-by ul {
+    flex-direction: row;
+  }
+
+  /*Contact Us*/
+  .contact-page .form-contact,
+  .contact-page .box-contact {
+    padding-bottom: 30px;
+  }
+  .contact-page .box-bg {
+    padding-bottom: 25px !important;
+  }
+
+  /*Footer*/
+  .f-contact.large-3 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .f-menu.large-6 {
+    max-width: 70%;
+    flex-basis: 70%;
+}
+.f-pay-ship.large-3 {
+  max-width: 30%;
+  flex-basis: 30%;
+}
+  .f-social ul li {
+    margin: 0 15px 0 15px !important;
+}
+.payment {
+  margin-bottom: 30px;
+}
+}
+
+@media (min-width: 992px) {
+
+  /*Home Three Banner*/
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 304px !important;
+}
+
+/*Home Products*/
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 765px !important;
+}
+.home-products .flickity-prev-next-button {
+  top: 32% !important;
+  bottom: 32% !important;
+}
+.home-products.popular .flickity-prev-next-button {
+  top: 28% !important;
+  bottom: 28% !important;
+}
+
+  /*Footer*/
+  .f-contact .f-logo {
+    justify-content: left;
+}
+  .f-contact .f-logo {
+    padding-top: 14px;
+  }
+  .f-contact.large-3 {
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+  .f-menu.large-6 {
+    max-width: 60%;
+    flex-basis: 60%;
+}
+  .f-address p {
+    text-align: left;
+  }
+  .f-contact .f-social ul {
+    justify-content: left;
+  }
+  .f-pay-ship {
+    max-width: 77% !important;
+    flex-basis: 77% !important;
+}
+.payment {
+  float: left;
+  width: 50%;
+  margin-right: 30px;
+}
+.f-pay-ship h4 {
+  margin-bottom: 20px;
+}
+}
+
+@media (min-width: 1024px) {
+
+  /*Home Three Banner*/
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 313px !important;
+}
+
+/*Home Products*/
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 780px !important;
+}
+.home-products.popular .flickity-page-dots {
+  bottom: 109%;
+  left: 89.5%;
+  right: 89.5%;
+}
+.home-products.popular .women-popular .flickity-page-dots {
+  left: 88.5%;
+  right: 88.5%;
+}
+
+  /*Contact*/
+  .contact-page .box-bg {
+    padding-bottom: 45px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /*Home Three Banner*/
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 364px !important;
+}
+
+/*Home Products*/
+.p-title {
+  height: 58px;
+}
+.women-popular .p-title {
+  height: 58px;
+}
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 918px !important;
+}
+.products-header .p-title h4 {
+  font-size: 1.5rem;
+}
+.products-header .p-title p {
+  font-size: 1.5rem;
+}
+.products-header a {
+  font-size: 1.1rem;
+}
+.home-products.popular .flickity-page-dots {
+    bottom: 111%;
+    left: 90.5%;
+    right: 90.5%;
+}
+.home-products.popular .women-popular .flickity-page-dots {
+  left: 90.5%;
+  right: 90.5%;
+  bottom: 111%;
+}
+.home-products .box-text p {
+  font-size: 1.5rem;
+}
+.btn-all {
+  width: 350px;
+}
+
+  /*Home Banner*/
+  .home-banner {
+    height: 500px;
+  }
+  .home-banner .section-content {
+    height: 238px;
+  }
+  .ab-logo img {
+    width: 337px;
+    height: 62px;
+  }
+
+  /*CMS*/
+  .order-step-box p.order-explain {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .bank img {
+    width: auto;
+}
+.bank-data .bank-detail {
+  height: auto;
+}
+
+  /*Footer*/
+  .f-contact.large-3 {
+    max-width: 30%;
+    flex-basis: 30%;
+  }
+  .f-menu.large-6 {
+    max-width: 46%;
+    flex-basis: 46%;
+  }
+  .f-pay-ship.large-3 {
+    max-width: 24% !important;
+    flex-basis: 24% !important;
+  }
+  .payment {
+    float: unset;
+    width: auto;
+    margin-right: 0;
+}
+}
+
+@media (min-width: 1440px) {
+
+  /*Home Three Banner*/
+  .home-three-banner .img-inner.image-cover.dark {
+    padding-top: 406px !important;
+}
+
+/*Home Products*/
+.banner-popular .img-inner.image-cover.dark {
+  padding-top: 1010px !important;
+}
+.home-products.popular .flickity-prev-next-button {
+  top: 30% !important;
+  bottom: 30% !important;
+}
+.home-products.popular .flickity-page-dots {
+  bottom: 110%;
+  left: 94%;
+  right: 94%;
+  width: 6%;
+}
+.home-products.popular .women-popular .flickity-page-dots {
+  left: 93%;
+  right: 93%;
+  bottom: 110%;
+}
+
+  /*Home Products*/
+  .image-tools.top.right.show-on-hover {
+    display: block;
+  }
+  /*Footer*/
+  .footer-links {
+    padding: 75px 0 40px;
+  }
+}
